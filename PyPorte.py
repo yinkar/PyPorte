@@ -52,7 +52,7 @@ def main():
 	if len(sys.argv) != 1: 
 		out = sys.argv[1]
 	else:
-		out = input('Type filename of the json file: ');
+		out = input('Type filename of the json file: ')
 
 
 	with open(out) as f:
